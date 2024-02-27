@@ -1,0 +1,32 @@
+
+
+table, tr, td{
+    
+    padding: 20px;
+    
+}
+
+img{
+    height: 80px;
+    padding: ;
+    margin: ;
+    text-shadow: 200px;
+}
+
+.first{
+    background-color: green;
+    color: wheat;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+/* table:hover{
+    cursor: pointer;
+} */
+
+.trTest:hover {
+    cursor: pointer;
+    border-left: 1px solid black;
+}

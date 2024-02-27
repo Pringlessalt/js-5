@@ -1,0 +1,34 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.Box{
+    margin-bottom: 20px;
+    padding: 30px;
+    border: 5px solid black;
+    background-color: red;
+    
+}
+.paragraph{
+    margin: 20px 0px;
+    background-color: blue;
+    padding: 15px;
+    border: 2px solid black;
+    color: white;
+    
+}
+.content{
+    background-color: green;
+}
+
+#mar{
+    color: red;
+}
+
+.back{
+    background: white;
+}
+
+ul{
+    margin: 20px;
+}

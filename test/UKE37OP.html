@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPPGAVE</title>
+    <style>
+        table, tr, td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="get">
+        
+           
+            <fieldset>
+                <legend>personlig infarmasjon</legend>
+                <table>
+                    <tr>
+                        <td>Navn</td>
+                        <td>
+                            <label for="Navn" placeholder="skriv navnet ditt"></label>
+                            <input type="text" id="Navn" name="Navn"placeholder="skriv navnet ditt">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Epost</td>
+                        <td>
+                            <label for="email"></label>
+                            <input type="email" name="email" id="emailfs" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Legg til bildet</td>
+                        <td>
+                            <label for="file"></label>
+                            <input type="file" id="file" name="file">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+       
+        
+        
+        
+           <fieldset>
+            <table>
+                <legend>Annen informasjon</legend>
+                <tr>
+                    <td>Fødselsdato</td>
+                    <td>
+                        <label for="age"></label>
+                        <input type="date" id="age" name="age">
+
+                    </td>
+                </tr>
+                <tr>
+                    <div>
+                        <td>Erfaring i IT-bransjen</td>
+                     <td>
+                        <div>
+                            <label for="radio"></label>
+                          <input type="radio" id="radio" name="radio">1-5år
+                        </div>
+
+                             <div>
+                                <label for="radio"></label>
+                                <input type="radio" id="radio" name="radio">6-10år
+                      
+                             </div>
+                         <div>
+                            <label for="radio"></label>
+                            <input type="radio" id="radio" name="radio">+10år
+                         </div>
+                     </td>
+                   </div>
+                </tr>
+                <tr>
+                    <td>Programmerings språk</td>
+                    <td>
+                       <div> <select name="språk" id="språk">
+                        <option value="C#">C#</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Java">Java</option>
+                        <option value="Python">Python</option>
+                        <option value="Javascript">Javascript</option>
+                    </select></div>
+                    </td>
+                </tr>
+
+            </table>
+           </fieldset>
+
+           <fieldset>
+            <legend>Kontraktskopi</legend>
+            
+                <td>
+                    <tr>
+                        <textarea name="" id="" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque mollitia similique exercitationem nam temporibus sit velit laboriosam itaque odio, et dolorum rerum molestias doloremque magnam fuga praesentium recusandae ad non.</textarea>
+                    </tr>
+                </td>
+            
+           </fieldset>
+
+           <fieldset>
+            <legend>kontraktsbekreftelse</legend>
+            <div>
+                <label for="checkbox"></label>
+                <input type="checkbox" id="checkbox">jeg godtar informasjonen nedenfor og bekrefter avtalen
+            </div>
+            <div>
+                <label for="make"></label>
+                <input type="submit" id="make" name="make">
+                <label for="reset"></label>
+                <input type="reset" id="reset" name="reset">
+            </div>
+           </fieldset>
+        
+
+
+
+
+    </form>
+</body>
+</html>

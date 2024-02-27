@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+   background-color: black;
+}
+
+.color{
+    
+    margin: 20px;
+    text-align: left;
+}
+
+.first{
+    color: antiquewhite;
+}
+
+.all{
+    
+    
+    text-align: center;
+    padding: 150px 50px ;
+    margin: 50px 150px 50px 150px;
+    color: black;
+}
+
+.mar{
+    background-color: aqua;
+    margin: 40px;
+    padding: 80px;
+    font-size: large;
+    font-weight: bold;
+    border: 2px dashed black;
+    colo
+    
+}
+.bor{
+    background-color: red;
+    padding: 60px;
+    margin: 40px;
+    
+}
+.bor{
+    background-color: lightgreen;
+    font-size: large;
+    font-weight: bold;
+}
+.pad{
+    background-color: rebeccapurple;
+    padding: 90px;
+    border: 40px;
+    font-size: large;
+    font-weight: bold;
+    margin: 40px;
+}
+div.con{
+    background-color: aliceblue;
+    padding: 60px;
+    border: 4px;
+    font-size: large;
+    font-weight: bold;
+    border: 2px dashed black;
+}

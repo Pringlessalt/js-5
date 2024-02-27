@@ -1,0 +1,35 @@
+body {
+ font-family: Arial, sans-serif;
+ text-align: center;
+ background-color: green;
+}
+
+h1 {
+ color: #ffffff;
+}
+
+p {
+ color: wheat;
+ font: 2em sans-serif;
+}
+
+button {
+ padding: 10px 20px;
+ background-color: #ffffff;
+ color: #000000;
+ border: none;
+ cursor: pointer;
+ font: 1em sans-serif;
+ border-radius: 3px;
+}
+
+button:hover {
+ background-color: wheat;
+ transition: 1.3s;
+}
+
+#guessField {
+ padding: 10px;
+ margin-bottom: 10px;
+ border-radius: 3px;
+}

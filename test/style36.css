@@ -1,0 +1,28 @@
+.table,
+th,
+td{
+    
+    background-color: black;
+    color:#FBC800 ;
+    
+    
+}
+#cat{
+    color:skyblue;
+}
+
+td {
+    padding: 10px;
+}
+:hover{
+    background-color: white;
+    color: rebeccapurple;
+    
+    
+}
+tr{
+    cursor: pointer;
+}
+#dog{
+    background-color: darkred;
+}

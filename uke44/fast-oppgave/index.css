@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container1{
+    display: flex;
+    padding-top: 50px;
+    margin-left: 100px;
+    color: white;
+    background-color: grey;   
+}
+
+.container1 div{
+    flex: 1;
+}
+
+.pic1{
+    order: 2;
+   
+    padding-top: 150px;
+}
+
+.pic2{
+    order: 3;
+   
+}
+
+.pic3{
+    order: 1;
+   
+}
+
+img{
+    height: 400px;
+    width: 300px;
+}
+
+.title{
+    position: fixed;
+    font-size: x-large;
+    padding-left: 250px;
+    color: white;
+    background: transparent;
+}
+
+.tatto{
+    padding-left: 200px;
+}
+
+h2{
+    color: black;
+}

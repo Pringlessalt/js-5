@@ -1,0 +1,39 @@
+*{
+    border: 2px solid re;
+}
+.two{
+    background-color: yellow;
+    color: aliceblue;
+    border: 5px solid white;
+}
+.b{
+    background-color: brown;
+    color: aliceblue;
+    border: 5px solid white;
+}
+.purple{
+    background-color: purple;
+    padding: 20px;
+    margin: 2px;
+    color: aliceblue;
+    border: 5px solid white;
+}
+.dark{
+    background-color: saddlebrown;
+    color: aliceblue;
+    border: 5px solid white;
+}
+
+.green{
+    background-color: green;
+    border: 5px solid white;
+    color: aliceblue;
+}
+
+.red{
+    background-color: red;
+    padding: 20px;
+    border: 5px solid white;
+    color: aliceblue;
+    margin: 20px;
+}

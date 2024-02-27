@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: url(https://www.pixelstalk.net/wp-content/uploads/images2/Cafe_wallpaper_1920x1080.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    border: 1px solid blck;
+}
+
+
+
+#ca{
+    padding: 0px 20px 20px 20px;
+    margin: 10px;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 3px solid red;
+    
+}
+
+
+table{
+    padding: 10px 0px 20px;
+    margin: 100px 400px;
+    background: tan;
+    border-radius: 3px;
+    
+}
+p{
+    font-size: x-small;
+    margin:;
+    padding-top: 30px;
+    background: tan;
+}
+
+i{
+    padding:10px ;
+    margin: 20px;
+    background: tan;
+    border: 1px solid wite;
+    
+    
+}
+
+tr,td{
+    padding: 20px 70px;
+    margin: 16px 90px;
+    background: tan;
+    border-radius: 3px;
+    
+}
+
+.menu{
+    text-align: left;
+    padding-left: 2px;
+    
+}
+
+.price{
+    padding-right: 2px;
+    text-align: right;
+}
+
+.down{
+    border: 1px solid blue;
+}
+
+.titlte{
+    padding: 20px;
+    margin: 2px;
+}
+
+h3{
+    padding: 20px 20px 10px 2px;
+    margin: px;
+    background: tan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+#u{
+    text-align: center;
+}

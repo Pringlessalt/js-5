@@ -1,0 +1,29 @@
+
+
+.color{
+    color: rebeccapurple;
+}
+
+.textalign{
+    text-align: center;
+}
+
+.dec{
+    text-decoration:underline 1px black;
+}
+
+.texttransform{
+    text-transform: capitalize;
+}
+
+.letterspacing{
+    letter-spacing: 2px;
+}
+
+.Bruke{
+    word-spacing: 3px;
+}
+
+.textshadow{
+    text-shadow: 5px;
+}

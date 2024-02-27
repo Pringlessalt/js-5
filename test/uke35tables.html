@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th ,td{
+            border rasius: 100px;
+        }
+
+
+        table,
+        th,
+        td {
+            border: 1px groove black;
+        }
+
+        th {
+            background-color: chocolate;
+        }
+
+        td {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .testClass {
+            text-align: center;
+        }
+        .c1 {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Nu</th>
+            <th>Fotnavn</th>
+            <th>Etternavn</th>
+            <th>Karakter</th>
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Serdar</td>
+            <td>Durmus</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jhon</td>
+            <td>Rasmussen</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td style="background-color: cornflowerblue;">Tor</td>
+            <td style="color: blueviolet;">Grolid</td>
+            <td>5</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+
+        <tr>
+            <th style="background-color: white;">Columu1</th>
+            <th style="background-color: white;">Columu2</th>
+            <th style="background-color: white;">Columu3</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Row 1 Cell1</td>
+            <td>Row 1 Cell 2 </td>
+            <td>Row 1 Cell 3 </td>
+        </tr>
+        <tr>
+            <td>Row 2 Cell 2 </td>
+            <td>Row 2 Cell 3 </td>
+
+        </tr>
+        <tr>
+            <td colspan="3">Row 3 Cell 1</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+           <th style="background-color: white;">Level 1</th>
+           <th style="background-color: white;">Level 2</th>
+           <th style="background-color: white;">Level 3</th>
+           <th style="background-color: white;">Level 4</th>
+        </tr>
+        <tr>
+            <td rowspan="6">System</td>
+            <td rowspan="4">System Apps</td>
+            <td rowspan="3">SystemEnv</td>
+            <td>AppTest</td>
+        </tr>
+        <tr>
+            <td>AppMemory</td>
+        </tr>
+        <tr>
+            <td>App Test</td>
+        </tr>
+        <tr>
+            <td>SystemEnv2</td>
+            <td>System Test</td>
+        </tr>
+        <tr>
+            <td rowspan="2">System Memory</td>
+            <td rowspan="2">Memory Test</td>
+            <td>Memory Funk</td>
+        </tr>
+        <tr>
+            <td>Apes Test</td>
+        </tr>
+        
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th colspan="3" style="background-color: rgba(135, 207, 235, 0.589);">Invoice#123456789</th>
+            <th colspan="2" style="background-color: rgba(135, 207, 235, 0.589);">14 January2025</th>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Pay to:</b> <br>Acme billing Co. <br>123Main St. <br>Cityville.NA12345</td>
+            <td  colspan="2"><b>Customer:</b><br>John Smith <br>321 Willow Way <br>Southeast Northweastershire,MA 54321</td>
+        </tr>
+        <tr>
+            <td style="background-color: rgba(135, 207, 235, 0.589);">Name/Description</td>
+            <td style="background-color: rgba(135, 207, 235, 0.589);">Qty.</td>
+            <td style="background-color: rgba(135, 207, 235, 0.589);">@</td>
+            <td style="background-color: rgba(135, 207, 235, 0.589);">Cost</td>
+        </tr>
+        <tr>
+            <td>Peperclips</td>
+            <td>1000</td>
+            <td>0.01</td>
+            <td>10.00</td>
+        </tr>
+        <tr>
+            <td>Staples(box)</td>
+            <td>100</td>
+            <td>1.00</td>
+            <td>100.00</td>
+        </tr>
+        <tr>
+            <td style="background-color: rgba(135, 207, 235, 0.589);" colspan="3">Subtotal</td>
+            <td>110.00</td>
+        </tr>
+        <tr>
+            <td style="background-color: rgba(135, 207, 235, 0.589);" colspan="2">Tax</td>
+            <td>8%</td>
+            <td>8.80</td>
+        </tr>
+        <tr>
+            <td style="background-color: rgba(135, 207, 235, 0.589);" colspan="3">Grand Total</td>
+            <td>$118.80</td>
+        </tr>
+    </table>
+    
+    <br>
+    <table  style="height: 300px; width: 100%;">
+        <tr>
+          <th colspan="2" rowspan="3" style="background-color: aqua;">No</th>
+          <th style="background-color: aqua;">problem</th>
+          <th style="background-color: aqua;">for</th>
+          <th style="background-color: aqua;">a web</th>
+        </tr>
+        <tr >
+            <td class="testClass c1" id="testId" rowspan="2" style="background-color: lawngreen;">professional</td>
+            <td class="testClass c2"colspan="2" rowspan="4" style="background-color: lawngreen;">as</td>
+        </tr>
+        <tr>
+           
+        <tr>
+            <td style="background-color: yellow;" colspan="3">you</td>
+        </tr>
+        <tr>
+            <td style="background-color: pink;" >will</td>
+            <td rowspan="2" style="background-color: pink;" colspan="2">see</td>
+        </tr>
+        <tr>
+            <td style="background-color: aquamarine;">in</td>
+            <td style="background-color: aquamarine;">a few</td>
+            <td style="background-color: aquamarine;">minutes!</td>
+        </tr>
+    </table>
+</body>
+
+</html>
+
